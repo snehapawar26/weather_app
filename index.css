@@ -1,0 +1,56 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+body{
+    /* background-color: rgb(115, 153, 0); */
+    /* background-repeat: red ,blue; */
+    background: linear-gradient(100deg, rgba(255, 0, 0, 1) 0%, rgba(255, 154, 0, 1) 10%, rgba(208, 222, 33, 1) 20%, rgba(79, 220, 74, 1) 30%, rgba(63, 218, 216, 1) 40%, rgba(47, 201, 226, 1) 50%, rgba(28, 127, 238, 1) 60%, rgba(95, 21, 242, 1) 70%, rgba(186, 12, 248, 1) 80%, rgba(251, 7, 217, 1) 90%, rgba(255, 0, 0, 1) 100%);
+    /* width: 100%;    */
+}
+h2{
+    text-align: center;
+    margin: 30px;
+    font-size: 50px;
+    padding: 5px;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+    font-family: cursive;
+}
+.cityName,
+.submitButton{
+    border: none;
+    margin: 0 5px;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cityName{
+    background-color: rgb(204, 255, 51);
+    width: 400px;
+}
+.cityName:hover {
+    background-color: black;
+    color: white;
+    
+}
+.submitButton{
+    font-weight: bold;
+    background-color: rgb(204, 255, 51);}
+.submitButton:hover {
+    background-color: black;
+    color: white;
+}
+.submitButton:active {
+    transform: translateY(4px);
+}
